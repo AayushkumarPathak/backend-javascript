@@ -1,0 +1,20 @@
+{
+  "name": "backend_main",
+  "version": "1.0.0",
+  "description": "A javascript based backend application, use this API's URL to your frontend to make full-stack App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "Nodejs",
+    "express",
+    "mongoose",
+    "axios",
+    "await",
+    "chai"
+  ],
+  "author": "Aayush Pathak",
+  "license": "ISC"
+}
