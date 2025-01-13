@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A javascript based backend application, use this API's URL to your frontend to make full-stack App.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
@@ -16,5 +17,8 @@
     "chai"
   ],
   "author": "Aayush Pathak",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
